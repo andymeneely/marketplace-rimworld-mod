@@ -147,24 +147,6 @@
 	</TraderKindDef>
 
 	<TraderKindDef>
-		<defName>UraniumDealer2</defName>
-		<label>uranium dealer</label>
-		<commodityDefs>
-			<li>
-				<itemDef>Silver</itemDef>
-				<amountMin>200</amountMin>
-				<amountMax>2000</amountMax>
-			</li>
-			<li>
-				<itemDef>Uranium</itemDef>
-				<dropPriceModifier>Expensive</dropPriceModifier>
-				<amountMin>10</amountMin>
-				<amountMax>150</amountMax>
-			</li>
-		</commodityDefs>
-	</TraderKindDef>
-
-	<TraderKindDef>
 		<defName>IndustrialTrader2</defName>
 		<label>industrial trader</label>
 			<commodityDefs>
@@ -260,6 +242,37 @@
 			<li>
 				<itemDef>Metal</itemDef>
 				<dropPriceModifier>Cheap</dropPriceModifier>
+			</li>
+			<li>
+				<itemDef>MealSimple</itemDef>
+				<dropPriceModifier>Expensive</dropPriceModifier>
+				<amountMin>10</amountMin>
+				<amountMax>75</amountMax>
+			</li>
+		</commodityDefs>
+	</TraderKindDef>
+
+	<TraderKindDef>
+		<defName>SlaveTrader3</defName>
+		<label>slave trader</label>
+		<tradesSlaves>True</tradesSlaves>
+		<tradesWeapons>True</tradesWeapons>
+		<sellsSlaves>True</sellsSlaves>
+		<commodityDefs>
+			<li>
+				<itemDef>Silver</itemDef>
+				<amountMin>1200</amountMin>
+				<amountMax>1600</amountMax>
+			</li>
+			<li>
+				<itemDef>Metal</itemDef>
+				<dropPriceModifier>Cheap</dropPriceModifier>
+			</li>
+			<li>
+				<itemDef>MealSimple</itemDef>
+				<dropPriceModifier>Expensive</dropPriceModifier>
+				<amountMin>10</amountMin>
+				<amountMax>75</amountMax>
 			</li>
 		</commodityDefs>
 	</TraderKindDef>
