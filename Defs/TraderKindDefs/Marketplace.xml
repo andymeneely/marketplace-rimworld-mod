@@ -17,6 +17,18 @@
 				<amountMax>400</amountMax>
 			</li>
 			<li>
+				<itemDef>RawAgave</itemDef>
+				<dropPriceModifier>Cheap</dropPriceModifier>
+				<amountMin>35</amountMin>
+				<amountMax>100</amountMax>
+			</li>
+			<li>
+				<itemDef>RawBerries</itemDef>
+				<dropPriceModifier>Cheap</dropPriceModifier>
+				<amountMin>35</amountMin>
+				<amountMax>120</amountMax>
+			</li>
+			<li>
 				<itemDef>Metal</itemDef>
 				<dropPriceModifier>Cheap</dropPriceModifier>
 				<amountMin>40</amountMin>
@@ -26,24 +38,6 @@
 				<itemDef>StoneBlocks</itemDef>
 				<dropPriceModifier>Expensive</dropPriceModifier>
 				<amountMin>40</amountMin>
-				<amountMax>150</amountMax>
-			</li>
-			<li>
-				<itemDef>Medicine</itemDef>
-				<dropPriceModifier>Expensive</dropPriceModifier>
-				<amountMin>1</amountMin>
-				<amountMax>3</amountMax>
-			</li>
-			<li>
-				<itemDef>Uranium</itemDef>
-				<dropPriceModifier>Expensive</dropPriceModifier>
-				<amountMin>10</amountMin>
-				<amountMax>75</amountMax>
-			</li>
-			<li>
-				<itemDef>MealSimple</itemDef>
-				<dropPriceModifier>Expensive</dropPriceModifier>
-				<amountMin>10</amountMin>
 				<amountMax>75</amountMax>
 			</li>
 		</commodityDefs>
@@ -68,7 +62,7 @@
 				<itemDef>StoneBlocks</itemDef>
 				<dropPriceModifier>Expensive</dropPriceModifier>
 				<amountMin>40</amountMin>
-				<amountMax>150</amountMax>
+				<amountMax>75</amountMax>
 			</li>
 			<li>
 				<itemDef>Metal</itemDef>
@@ -99,7 +93,7 @@
 			<li>
 				<itemDef>Silver</itemDef>
 				<amountMin>1000</amountMin>
-				<amountMax>2000</amountMax>
+				<amountMax>1500</amountMax>
 			</li>
 			<li>
 				<itemDef>Uranium</itemDef>
@@ -118,12 +112,6 @@
 				<dropPriceModifier>Cheap</dropPriceModifier>
 				<amountMin>400</amountMin>
 				<amountMax>600</amountMax>
-			</li>
-			<li>
-				<itemDef>MealSimple</itemDef>
-				<dropPriceModifier>Expensive</dropPriceModifier>
-				<amountMin>10</amountMin>
-				<amountMax>75</amountMax>
 			</li>
 		</commodityDefs>
 	</TraderKindDef>
@@ -243,12 +231,6 @@
 				<itemDef>Metal</itemDef>
 				<dropPriceModifier>Cheap</dropPriceModifier>
 			</li>
-			<li>
-				<itemDef>MealSimple</itemDef>
-				<dropPriceModifier>Expensive</dropPriceModifier>
-				<amountMin>10</amountMin>
-				<amountMax>75</amountMax>
-			</li>
 		</commodityDefs>
 	</TraderKindDef>
 
@@ -267,12 +249,6 @@
 			<li>
 				<itemDef>Metal</itemDef>
 				<dropPriceModifier>Cheap</dropPriceModifier>
-			</li>
-			<li>
-				<itemDef>MealSimple</itemDef>
-				<dropPriceModifier>Expensive</dropPriceModifier>
-				<amountMin>10</amountMin>
-				<amountMax>75</amountMax>
 			</li>
 		</commodityDefs>
 	</TraderKindDef>
