@@ -40,6 +40,12 @@
 				<amountMin>40</amountMin>
 				<amountMax>75</amountMax>
 			</li>
+			<li>
+				<itemDef>Uranium</itemDef>
+				<dropPriceModifier>Cheap</dropPriceModifier>
+				<amountMin>20</amountMin>
+				<amountMax>30</amountMax>
+			</li>
 		</commodityDefs>
 	</TraderKindDef>
 
@@ -128,8 +134,8 @@
 			<li>
 				<itemDef>Uranium</itemDef>
 				<dropPriceModifier>Normal</dropPriceModifier>
-				<amountMin>50</amountMin>
-				<amountMax>100</amountMax>
+				<amountMin>60</amountMin>
+				<amountMax>110</amountMax>
 			</li>
 		</commodityDefs>
 	</TraderKindDef>
@@ -146,12 +152,14 @@
 				<li>
 					<itemDef>RawPotatoes</itemDef>
 					<dropPriceModifier>Expensive</dropPriceModifier>
+					<amountMin>20</amountMin>
+					<amountMax>100</amountMax>
 				</li>
 				<li>
 					<itemDef>Metal</itemDef>
 					<dropPriceModifier>Cheap</dropPriceModifier>
-					<amountMin>500</amountMin>
-					<amountMax>800</amountMax>
+					<amountMin>450</amountMin>
+					<amountMax>500</amountMax>
 				</li>
 				<li>
 					<itemDef>Medicine</itemDef>
@@ -183,6 +191,8 @@
 			<li>
 				<itemDef>RawPotatoes</itemDef>
 				<dropPriceModifier>VeryCheap</dropPriceModifier>
+				<amountMin>30</amountMin>
+				<amountMax>50</amountMax>
 			</li>
 			<li>
 				<itemDef>Metal</itemDef>
@@ -199,6 +209,8 @@
 			<li>
 				<itemDef>Uranium</itemDef>
 				<dropPriceModifier>Cheap</dropPriceModifier>
+				<amountMin>30</amountMin>
+				<amountMax>50</amountMax>
 			</li>
 			<li>
 				<itemDef>Shells</itemDef>
@@ -230,6 +242,8 @@
 			<li>
 				<itemDef>Metal</itemDef>
 				<dropPriceModifier>Cheap</dropPriceModifier>
+				<amountMin>50</amountMin>
+				<amountMax>120</amountMax>
 			</li>
 		</commodityDefs>
 	</TraderKindDef>
@@ -243,12 +257,14 @@
 		<commodityDefs>
 			<li>
 				<itemDef>Silver</itemDef>
-				<amountMin>1200</amountMin>
-				<amountMax>1600</amountMax>
+				<amountMin>1000</amountMin>
+				<amountMax>1400</amountMax>
 			</li>
 			<li>
 				<itemDef>Metal</itemDef>
 				<dropPriceModifier>Cheap</dropPriceModifier>
+				<amountMin>50</amountMin>
+				<amountMax>120</amountMax>
 			</li>
 		</commodityDefs>
 	</TraderKindDef>
